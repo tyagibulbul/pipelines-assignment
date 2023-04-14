@@ -43,7 +43,7 @@ jobs:
         
     - name: RunTests
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: VSTest.Console.exe Debug\UnitTest1.dll
+      run: VSTest.Console.exe x64\Release\UnitTest1.dll
 
   build:
     runs-on: windows-latest
