@@ -11,6 +11,9 @@ CoolClass::CoolClass(void)
 
 int CoolClass::Calc(int a, int b)
 {
+    float x = 1.0;
+    return x;
+    
     if (a == b)
     {
         return 2 * a;
